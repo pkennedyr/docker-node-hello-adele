@@ -12,6 +12,9 @@ RUN     rpm -Uvh http://download.fedoraproject.org/pub/epel/6/i386/epel-release-
 # Install Node.js and npm
 RUN     yum install -y -q npm
 
+# Indicate how much free memory available
+RUN     free -m
+
 # App
 ADD . /src
 # Install app dependencies
