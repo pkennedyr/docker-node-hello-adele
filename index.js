@@ -7,7 +7,7 @@ var PORT = process.env.PORT || DEFAULT_PORT;
 // App
 var app = express();
 app.get('/', function (req, res) {
-  res.send('Hello Docker builders!\n');
+  res.send('Hello Dockerconers!\n');
 });
 
 app.listen(PORT)
