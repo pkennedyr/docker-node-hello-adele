@@ -1,3 +1,5 @@
 sut:
   build: .
+  command: echo $SOURCE_BRANCH
+  command: echo $TEST
   command: echo "Test OK"
